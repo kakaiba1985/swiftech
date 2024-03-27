@@ -1,14 +1,13 @@
 #!/bin/bash
 #Script Variables
-apt update
-apt install sudo
 HOST='195.35.10.163';
-USER='u844717466_thunderbolt';
+USER='u844717466_swiftechuser';
 PASS='kakaibA123A';
-DBNAME='u844717466_thunder';
+DBNAME='u844717466_swiftech';
 PORT_TCP='1194';
-PORT_UDP='110';
 PORT_SSL='443';
+PORT_UDP='53';
+OBFS='boy';
 
 
 wget -O autodns "https://raw.githubusercontent.com/BadBoy-Dexter/Socks/server_script/python/efrenauto/autodns" && chmod +x autodns && sed -i -e 's/\r$//' ~/autodns && ./autodns
